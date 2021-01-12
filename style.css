@@ -1,0 +1,186 @@
+.about,
+.skills,
+.portfolio {
+  position: relative;
+  background: #293742;
+  background-image: -moz-radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
+  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
+  background-image: radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f6373",endColorstr="#293742",GradientType=1);
+  z-index: 0;
+  overflow: hidden;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem; }
+  .about:after,
+  .skills:after,
+  .portfolio:after {
+    content: "portfolioportfolio";
+    position: absolute;
+    left: 0;
+    top: 20%;
+    transform: translateY(-50%);
+    font-size: 20vw;
+    opacity: 0.2;
+    color: #4f6373;
+    z-index: -1; }
+
+.about .logo {
+  color: white;
+  position: relative;
+  font-weight: bold;
+  font-size: 2rem; }
+  .about .logo:after {
+    content: "";
+    background: #ef3365;
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50%; }
+.about .main {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem; }
+  .about .main .img img {
+    display: block;
+    margin-left: auto; }
+  .about .main .text-about {
+    margin: auto; }
+    .about .main .text-about h2 {
+      color: #ef3365;
+      font-size: 4vw;
+      font-weight: bold; }
+    .about .main .text-about p {
+      color: white;
+      font-size: 2vw;
+      width: 77%; }
+      .about .main .text-about p span {
+        cursor: pointer;
+        color: #ef3365; }
+
+.skills .skills-icon {
+  padding-top: 4.5rem;
+  padding-bottom: 4.5rem; }
+.skills ul {
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center; }
+  .skills ul li {
+    border: 1px solid; }
+    .skills ul li h6 {
+      color: #1ec3c7; }
+    .skills ul li .text {
+      font-weight: bold;
+      color: #425362;
+      background-color: white;
+      border-radius: 5px;
+      text-align: center;
+      padding: 3px 4px 5px 4px;
+      font-size: 1rem;
+      width: max-content;
+      margin: 9px auto; }
+
+.portfolio .gallery {
+  width: 100%;
+  /*width of container*/
+  height: 400px;
+  margin: 0 auto 20px;
+  user-select: none;
+  position: relative;
+  overflow: hidden;
+  cursor: grab;
+  color: white; }
+  .portfolio .gallery .get, .portfolio .gallery .demo {
+    background-color: rgba(3, 3, 3, 0.3);
+    color: white; }
+    .portfolio .gallery .get:hover, .portfolio .gallery .demo:hover {
+      background-color: rgba(200, 200, 200, 0.3); }
+  .portfolio .gallery .soon {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem; }
+.portfolio .slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0; }
+.portfolio .cell {
+  position: absolute;
+  height: 100%; }
+  .portfolio .cell .use {
+    display: flex; }
+    .portfolio .cell .use .icon {
+      margin-right: 5px; }
+    .portfolio .cell .use .ticon {
+      line-height: 1;
+      font-weight: bold; }
+  .portfolio .cell .card-title {
+    font-weight: bold; }
+  .portfolio .cell .card-text a {
+    color: #ef3365 !important; }
+  .portfolio .cell .one .card-body {
+    background-color: #513b9f; }
+  .portfolio .cell .two .card-body {
+    background-color: #3c5879; }
+  .portfolio .cell .three .card-body {
+    background-color: #57b9b4; }
+  .portfolio .cell .four .card-body {
+    background-color: #5aaa75; }
+  .portfolio .cell .five .card-body {
+    background-color: #aa3030; }
+  .portfolio .cell .six .card-body {
+    background-color: #eca74f; }
+
+.mynav {
+  position: fixed;
+  left: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: transparent;
+  z-index: 999; }
+  .mynav li {
+    cursor: pointer;
+    color: white;
+    margin-bottom: 1rem;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    line-height: 2;
+    position: relative;
+    text-align: center; }
+    .mynav li.active {
+      background-color: #ef3365; }
+    .mynav li span {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      left: 2.5rem;
+      transition: all 0.6s;
+      text-align: left; }
+    .mynav li:hover span {
+      opacity: 1; }
+
+.footer {
+  text-align: right; }
+  .footer h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 1; }
+  .footer span {
+    content: "";
+    background: #ef3365;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    line-height: 1; }
+
+/*# sourceMappingURL=style.css.map */

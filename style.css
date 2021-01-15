@@ -1,6 +1,7 @@
 .about,
 .skills,
-.portfolio {
+.portfolio,
+.contact {
   position: relative;
   background: #293742;
   background-image: -moz-radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
@@ -13,7 +14,8 @@
   padding-bottom: 2.5rem; }
   .about:after,
   .skills:after,
-  .portfolio:after {
+  .portfolio:after,
+  .contact:after {
     content: "portfolioportfolio";
     position: absolute;
     left: 0;
@@ -83,24 +85,30 @@
       margin: 9px auto; }
 
 .portfolio .gallery {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
   width: 100%;
   /*width of container*/
-  height: 400px;
-  margin: 0 auto 20px;
+  height: 24rem;
   user-select: none;
   position: relative;
   overflow: hidden;
   cursor: grab;
   color: white; }
-  .portfolio .gallery .get, .portfolio .gallery .demo {
+  .portfolio .gallery .get,
+  .portfolio .gallery .demo {
     background-color: rgba(3, 3, 3, 0.3);
-    color: white; }
-    .portfolio .gallery .get:hover, .portfolio .gallery .demo:hover {
+    color: white;
+    bottom: 1rem;
+    position: absolute; }
+    .portfolio .gallery .get:hover,
+    .portfolio .gallery .demo:hover {
       background-color: rgba(200, 200, 200, 0.3); }
+  .portfolio .gallery .get {
+    left: 5rem; }
   .portfolio .gallery .soon {
     display: block;
-    margin-top: 1rem;
-    margin-bottom: 1rem; }
+    width: 80%; }
 .portfolio .slider {
   position: absolute;
   width: 100%;
@@ -119,8 +127,21 @@
       font-weight: bold; }
   .portfolio .cell .card-title {
     font-weight: bold; }
-  .portfolio .cell .card-text a {
-    color: #ef3365 !important; }
+  .portfolio .cell .card-text {
+    margin-bottom: 0; }
+    .portfolio .cell .card-text a {
+      color: #ef3365 !important; }
+  .portfolio .cell .card-body {
+    height: 15rem; }
+  .portfolio .cell .ul-animation {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .portfolio .cell .ul-animation li {
+      width: 50%; }
   .portfolio .cell .one .card-body {
     background-color: #513b9f; }
   .portfolio .cell .two .card-body {
@@ -133,6 +154,90 @@
     background-color: #aa3030; }
   .portfolio .cell .six .card-body {
     background-color: #eca74f; }
+  .portfolio .cell .seven .card-body {
+    background-color: #cac02e; }
+
+.contact .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
+.contact .contact-body {
+  margin-top: 4.5rem;
+  margin-bottom: 4.5rem;
+  background-color: #18191b;
+  color: white;
+  padding: 1rem 5rem; }
+  .contact .contact-body .follow {
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 1rem;
+    text-align: center; }
+    .contact .contact-body .follow .icons {
+      padding-top: 1rem; }
+    .contact .contact-body .follow .icons .icon {
+      background-color: #fff;
+      border-radius: 50%;
+      font-size: 2rem;
+      width: 4rem;
+      height: 4rem;
+      text-align: center;
+      line-height: 2;
+      margin-right: 7px;
+      color: #ef3365; }
+  .contact .contact-body hr {
+    background-color: #ef3365; }
+  .contact .contact-body .freelance .icons {
+    padding-top: 1rem;
+    padding-bottom: 1rem; }
+    .contact .contact-body .freelance .icons a {
+      background: url(img/brands.png) no-repeat;
+      height: 53px;
+      display: inline-block;
+      width: 54px; }
+      .contact .contact-body .freelance .icons a.Mostaql {
+        background-position: 0px -54px; }
+      .contact .contact-body .freelance .icons a.Baaeed {
+        background-position: 0px 0px; }
+      .contact .contact-body .freelance .icons a.Nafezly {
+        background-position: 0px -160px; }
+      .contact .contact-body .freelance .icons a.Khamsat {
+        background-position: 0px -107px; }
+.contact .footer-end {
+  display: flex;
+  justify-content: space-between; }
+  .contact .footer-end .copy {
+    font-size: 12px;
+    width: 60%;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between; }
+    .contact .footer-end .copy h6 {
+      color: #868c92;
+      font-size: 12px;
+      padding: 0;
+      margin: 0; }
+      .contact .footer-end .copy h6 i {
+        color: #ef3365; }
+    .contact .footer-end .copy span {
+      color: white; }
+      .contact .footer-end .copy span i {
+        margin-right: 10px; }
+  .contact .footer-end h1 {
+    color: white;
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: -3px;
+    line-height: 1;
+    width: 31%; }
+    .contact .footer-end h1 span {
+      content: "";
+      background: #ef3365;
+      width: 10px;
+      height: 10px;
+      display: inline-block;
+      border-radius: 50%;
+      line-height: 1; }
 
 .mynav {
   position: fixed;

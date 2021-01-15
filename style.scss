@@ -6,7 +6,8 @@ $blue: #1ec3c7;
 
 .about,
 .skills,
-.portfolio {
+.portfolio,
+.contact {
   position: relative;
   background: #293742;
   background-image: -moz-radial-gradient(
@@ -59,8 +60,8 @@ $blue: #1ec3c7;
     }
   }
   .main {
-      padding-top: 1.5rem;
-      padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     .img img {
       display: block;
       margin-left: auto;
@@ -121,26 +122,31 @@ $blue: #1ec3c7;
 
 .portfolio {
   .gallery {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
     width: 100%; /*width of container*/
-    height: 400px;
-    margin: 0 auto 20px;
+    height: 24rem;
     user-select: none;
     position: relative;
     overflow: hidden;
     cursor: grab;
     color: white;
-    .get,.demo {
+    .get,
+    .demo {
       background-color: rgba(3, 3, 3, 0.3);
       color: white;
+      bottom: 1rem;
+      position: absolute;
       &:hover {
         background-color: rgba(200, 200, 200, 0.3);
       }
-      
     }
-    .soon{
+    .get {
+      left: 5rem;
+    }
+    .soon {
       display: block;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
+      width: 80%;
     }
   }
 
@@ -155,24 +161,37 @@ $blue: #1ec3c7;
   .cell {
     position: absolute;
     height: 100%;
-    .use{
-        display: flex;
-       .icon{
-         margin-right: 5px;
-       }
-       .ticon{
+    .use {
+      display: flex;
+      .icon {
+        margin-right: 5px;
+      }
+      .ticon {
         line-height: 1;
         font-weight: bold;
-       }
-      
+      }
     }
     .card-title {
       font-weight: bold;
-     
     }
-    .card-text{
-      a{
-        color:$pink !important;
+    .card-text {
+      margin-bottom: 0;
+      a {
+        color: $pink !important;
+      }
+    }
+    .card-body {
+      height: 15rem;
+    }
+    .ul-animation {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      li {
+        width: 50%;
       }
     }
     .one .card-body {
@@ -193,9 +212,118 @@ $blue: #1ec3c7;
     .six .card-body {
       background-color: #eca74f;
     }
+    .seven .card-body {
+      background-color: #cac02e;
+    }
   }
 }
 
+// contact
+.contact {
+  
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .contact-body {
+    margin-top: 4.5rem;
+    margin-bottom: 4.5rem;
+    background-color: $black;
+    color: white;
+    padding: 1rem 5rem;
+
+    .follow {
+      margin-top: auto;
+      margin-bottom: auto;
+      padding: 1rem;
+      text-align: center;
+     .icons{
+       padding-top: 1rem;
+     }
+  
+      .icons .icon {
+        background-color: #fff;
+        border-radius: 50%;
+        font-size: 2rem;
+        width: 4rem;
+        height:4rem;
+        text-align: center;
+        line-height: 2;
+        margin-right: 7px;
+        color: $pink;
+      }
+    }
+hr{
+  background-color: $pink;
+}
+    .freelance {
+      .icons{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        a {
+          background: url(img/brands.png)  no-repeat;
+          height: 53px;
+          display: inline-block;
+          width: 54px;
+          &.Mostaql{background-position: 0px -54px;}
+          &.Baaeed{background-position: 0px 0px;}
+          &.Nafezly{background-position: 0px -160px;}
+          &.Khamsat{background-position: 0px -107px;}
+          
+          }
+      }
+      
+    }
+
+  }
+
+  .footer-end {
+    display: flex;
+    justify-content: space-between;
+    .copy {
+      font-size: 12px;
+      width: 60%;
+      margin-top: auto;
+      display: flex;
+      justify-content: space-between;
+      h6 {
+        color: $grey;
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+        i {
+          color: $pink;
+        }
+      }
+      span {
+        color: white;
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
+    h1 {
+      color: white;
+      font-size: 4rem;
+      font-weight: 700;
+      letter-spacing: -3px;
+      line-height: 1;
+      width: 31%;
+      span {
+        content: "";
+        background: $pink;
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        border-radius: 50%;
+        line-height: 1;
+      }
+    }
+    
+  }
+}
 // global component
 .mynav {
   position: fixed;

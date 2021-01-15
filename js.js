@@ -40,7 +40,7 @@ function init() {
     
   //calc cell width 
   function widthCell(x) {
-    return 1.7*100 /x;
+    return 1.8*100 /x;
   }
 
   //set width of cell 

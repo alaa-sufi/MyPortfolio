@@ -4,6 +4,28 @@ $white: #fff;
 $black: #18191b;
 $blue: #1ec3c7;
 
+// start media
+
+@mixin screen($property, $value1, $value2, $value3, $value4) {
+  @media (max-width: 576px) {
+    #{$property}: $value1;
+  }
+
+  @media (min-width: 577px) {
+    #{$property}: $value2;
+  }
+
+  @media (min-width: 768px) {
+    #{$property}: $value3;
+  }
+
+  @media (min-width: 992px) {
+    #{$property}: $value4;
+  }
+}
+
+//end media
+
 .about,
 .skills,
 .portfolio,
@@ -39,12 +61,13 @@ $blue: #1ec3c7;
     z-index: -1;
   }
   overflow: hidden;
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+  @include screen(padding,1.5rem 0 ,2rem 0 ,2.2rem 0 ,2.5rem 0 );  
+
 }
 
 .about {
   .logo {
+    margin-top:2rem;
     color: white;
     position: relative;
     font-weight: bold;
@@ -64,19 +87,22 @@ $blue: #1ec3c7;
     padding-bottom: 1.5rem;
     .img img {
       display: block;
-      margin-left: auto;
+      @include screen(width,70% ,60% ,90% ,100% );  
+      @include screen(margin,1.5rem auto ,2rem auto ,0 0 0 auto ,0 0 0 auto );
+
     }
     .text-about {
       margin: auto;
       h2 {
         color: $pink;
-        font-size: 4vw;
+        @include screen(font-size,3rem ,3rem ,3.5rem ,4rem );  
         font-weight: bold;
       }
       p {
         color: white;
-        font-size: 2vw;
-        width: 77%;
+        @include screen(font-size,1.5rem ,1.5rem ,1.7rem ,2rem );  
+        font-size: 2rem;
+        
         span {
           cursor: pointer;
           color: $pink;
@@ -90,10 +116,11 @@ $blue: #1ec3c7;
 
 .skills {
   .skills-icon {
-    padding-top: 4.5rem;
-    padding-bottom: 4.5rem;
+    @include screen(padding,3rem  0 ,4rem  0 ,4.2rem  0,4.5rem  0);  
+
   }
   ul {
+    padding: 0;
     text-align: center;
     color: #fff;
     font-size: 2rem;
@@ -102,6 +129,7 @@ $blue: #1ec3c7;
     justify-content: center;
     li {
       border: 1px solid;
+      max-width: unset;
       h6 {
         color: $blue;
       }
@@ -121,9 +149,8 @@ $blue: #1ec3c7;
 }
 
 .portfolio {
-  .gallery {
-    margin-top: 4.5rem;
-    margin-bottom: 4.5rem;
+  .carousel {
+    @include screen(margin,3rem  0 ,4rem  0 ,4.2rem  0,4.5rem  0);      
     width: 100%; /*width of container*/
     height: 24rem;
     user-select: none;
@@ -150,16 +177,9 @@ $blue: #1ec3c7;
     }
   }
 
-  .slider {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    left: 0;
-    top: 0;
-  }
 
-  .cell {
-    position: absolute;
+
+  .carousel-cell {
     height: 100%;
     .use {
       display: flex;
@@ -228,27 +248,38 @@ $blue: #1ec3c7;
     text-align: center;
   }
   .contact-body {
-    margin-top: 4.5rem;
-    margin-bottom: 4.5rem;
+    h3{@include screen(font-size,1.3rem ,1.5rem,1.8rem,2rem);}
+    @include screen(margin,3rem  0 0 ,4rem  0 0 ,4.2rem  0 0,4.5rem  0 0);  
     background-color: $black;
     color: white;
-    padding: 1rem 5rem;
+    @include screen(padding,1rem 2rem ,1rem 3rem,1rem 4rem ,1rem 5rem );
+    border-radius: 1rem;
 
     .follow {
       margin-top: auto;
       margin-bottom: auto;
-      padding: 1rem;
+      @include screen(padding,0 ,0.5rem,0.8rem ,1rem );
       text-align: center;
      .icons{
-       padding-top: 1rem;
+      @include screen(padding,0 ,0.5rem,0.8rem ,1rem );
+       a{
+         transition: all 0.3s ease-in-out ;
+         position: relative;
+         top: 0;
+
+         &:hover{
+          top: -5px;
+         }
+       }
      }
   
       .icons .icon {
         background-color: #fff;
         border-radius: 50%;
-        font-size: 2rem;
-        width: 4rem;
-        height:4rem;
+        @include screen(font-size,1rem ,1rem,1.5rem ,2rem );
+        @include screen(width,2rem ,2rem,3rem ,4rem );
+        @include screen(height,2rem ,2rem,3rem ,4rem );
+
         text-align: center;
         line-height: 2;
         margin-right: 7px;
@@ -276,18 +307,25 @@ hr{
       }
       
     }
+    
+    }
+    .phone-message{
+      @include screen(margin-bottom,3rem ,4rem  ,4.2rem ,4.5rem);  
 
-  }
-
-  .footer-end {
-    display: flex;
-    justify-content: space-between;
+      span {
+        color: white;
+        font-size: 12px;
+        i {
+          margin-right: 10px;
+        }
+      }
+    }
     .copy {
       font-size: 12px;
-      width: 60%;
       margin-top: auto;
       display: flex;
       justify-content: space-between;
+     
       h6 {
         color: $grey;
         font-size: 12px;
@@ -297,69 +335,68 @@ hr{
           color: $pink;
         }
       }
-      span {
-        color: white;
-        i {
-          margin-right: 10px;
-        }
-      }
-    }
-    h1 {
-      color: white;
-      font-size: 4rem;
-      font-weight: 700;
-      letter-spacing: -3px;
-      line-height: 1;
-      width: 31%;
-      span {
-        content: "";
-        background: $pink;
-        width: 10px;
-        height: 10px;
-        display: inline-block;
-        border-radius: 50%;
-        line-height: 1;
-      }
-    }
+     
+    
     
   }
-}
+
+  }
+
+  
 // global component
+
+
+
+
 .mynav {
   position: fixed;
-  left: 2rem;
-  top: 50%;
-  transform: translateY(-50%);
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background-color: transparent;
+  background-color: rgba(30 ,195, 199 , 64%);
+  right: 0;
+  width: 100%;
+  top: 0;
   z-index: 999;
-  li {
-    cursor: pointer;
-    color: white;
-    margin-bottom: 1rem;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    line-height: 2;
-    position: relative;
-    text-align: center;
-    &.active {
-      background-color: $pink;
+  height: 2.2rem;
+  ul{
+    width: 85%;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    li{
+      color: white;
+      cursor: pointer;
+      &:hover span,&.active span {
+        opacity: 1;
+      }
+      &.active i,&:hover i{
+        background-color: $pink;
+      }
+      i {
+        margin-bottom: 1rem;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        line-height: 2;
+        position: relative;
+        text-align: center;
+    
+        
+        
+      }
+      span {
+        opacity: 0;
+        transition: all 0.6s;
+        text-align: left;
+        text-shadow: 1px 1px 1px $pink;
+      }
+
+  
     }
-    span {
-      opacity: 0;
-      position: absolute;
-      top: 0;
-      left: 2.5rem;
-      transition: all 0.6s;
-      text-align: left;
-    }
-    &:hover span {
-      opacity: 1;
-    }
+
   }
+
+  
 }
 
 .footer {
@@ -367,7 +404,7 @@ hr{
   text-align: right;
   h1 {
     color: white;
-    font-size: 4rem;
+    @include screen(font-size,2.5rem ,3rem ,3.5rem ,4rem );  
     font-weight: 700;
     letter-spacing: -3px;
     line-height: 1;

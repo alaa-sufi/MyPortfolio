@@ -25,6 +25,10 @@ $blue: #1ec3c7;
 }
 
 //end media
+::selection {
+  color: white;
+  background: $pink;
+  }
 
 .about,
 .skills,

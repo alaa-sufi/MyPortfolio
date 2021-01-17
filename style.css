@@ -1,3 +1,11 @@
+::-moz-selection {
+  color: white;
+  background: #ef3365; }
+
+::selection {
+  color: white;
+  background: #ef3365; }
+
 .about,
 .skills,
 .portfolio,
@@ -514,5 +522,4 @@
     display: inline-block;
     border-radius: 50%;
     line-height: 1; }
-
 /*# sourceMappingURL=style.css.map */

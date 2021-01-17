@@ -4,8 +4,6 @@
 .contact {
   position: relative;
   background: #293742;
-  background-image: -moz-radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
-  background-image: -webkit-radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
   background-image: radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4f6373",endColorstr="#293742",GradientType=1);
   z-index: 0;
@@ -18,7 +16,8 @@
     position: absolute;
     left: 0;
     top: 20%;
-    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
     font-size: 20vw;
     opacity: 0.2;
     color: #4f6373;
@@ -144,9 +143,12 @@
   text-align: center;
   color: #fff;
   font-size: 2rem;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
-  justify-content: center; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   .skills ul li {
     border: 1px solid;
     max-width: unset; }
@@ -160,6 +162,8 @@
       text-align: center;
       padding: 3px 4px 5px 4px;
       font-size: 1rem;
+      width: -webkit-max-content;
+      width: -moz-max-content;
       width: max-content;
       margin: 9px auto; }
 
@@ -167,9 +171,13 @@
   width: 100%;
   /*width of container*/
   height: 24rem;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   position: relative;
   overflow: hidden;
+  cursor: -webkit-grab;
   cursor: grab;
   color: white; }
   @media (max-width: 576px) {
@@ -201,6 +209,8 @@
 .portfolio .carousel-cell {
   height: 100%; }
   .portfolio .carousel-cell .use {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex; }
     .portfolio .carousel-cell .use .icon {
       margin-right: 5px; }
@@ -219,9 +229,14 @@
     list-style: none;
     margin: 0;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; }
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
     .portfolio .carousel-cell .ul-animation li {
       width: 50%; }
   .portfolio .carousel-cell .one .card-body {
@@ -240,9 +255,15 @@
     background-color: #cac02e; }
 
 .contact .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   text-align: center; }
 .contact .contact-body {
   background-color: #18191b;
@@ -313,6 +334,7 @@
       .contact .contact-body .follow .icons {
         padding: 1rem; } }
     .contact .contact-body .follow .icons a {
+      -webkit-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
       position: relative;
       top: 0; }
@@ -399,8 +421,12 @@
 .contact .copy {
   font-size: 12px;
   margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   .contact .copy h6 {
     color: #868c92;
     font-size: 12px;
@@ -422,8 +448,11 @@
     margin: auto;
     list-style: none;
     padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: space-around; }
+    -ms-flex-pack: distribute;
+        justify-content: space-around; }
     .mynav ul li {
       color: white;
       cursor: pointer; }
@@ -441,6 +470,7 @@
         text-align: center; }
       .mynav ul li span {
         opacity: 0;
+        -webkit-transition: all 0.6s;
         transition: all 0.6s;
         text-align: left;
         text-shadow: 1px 1px 1px #ef3365; }

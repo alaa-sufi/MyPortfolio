@@ -389,6 +389,9 @@ hr{
         transition: all 0.6s;
         text-align: left;
         text-shadow: 1px 1px 1px $pink;
+        @include screen(display,none,initial  ,initial ,initial);  
+
+
       }
 
   

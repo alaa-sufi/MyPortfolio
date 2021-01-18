@@ -90,7 +90,6 @@
         crossorigin="anonymous"
       ></script>
     <![endif]-->
-    <noscript>Your browser does not support JavaScript!</noscript>
     <link
       rel="stylesheet"
       href="https://npmcdn.com/flickity@2/dist/flickity.css"
@@ -107,32 +106,37 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <!-- nav -->
-    <nav class="mynav">
-      <ul>
-        <li class="active" data-scroll="about">
-          <i class="fa fa-user-tie"></i><span> About</span>
-        </li>
-        <li data-scroll="skills">
-          <i class="fa fa-cogs"></i><span> Skills</span>
-        </li>
-        <li data-scroll="projects">
-          <i class="fa fa-briefcase"></i><span> Projects</span>
-        </li>
-        <li data-scroll="contact">
-          <i class="fa fa-envelope"></i><span> Contact</span>
-        </li>
-      </ul>
+    <nav class=" mynav navbar navbar-expand-lg   navbar-light">
+      <div class="container">
+        <a class="navbar-brand logo" href="https://alaa-sufi-portfolio.netlify.app/">&lt;Alaa/&gt;</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="active nav-item" data-scroll="about">
+            <i class="fa fa-user-tie"></i><span> About</span>
+          </li>
+          <li class="nav-item" data-scroll="skills">
+            <i class="fa fa-cogs"></i><span> Skills</span>
+          </li>
+          <li class="nav-item" data-scroll="projects">
+            <i class="fa fa-briefcase"></i><span> Projects</span>
+          </li>
+          <li class="nav-item" data-scroll="contact">
+            <i class="fa fa-envelope"></i><span> Contact</span>
+          </li>
+        </ul>
+      </div>
+      </div>
     </nav>
+
+
 
     <!-- about -->
     <div class="about" id="about">
       <div class="container">
-        <div class="row">
-          <!-- logo -->
-          <div class="">
-            <h4 class="logo">&lt;Alaa/&gt;</h4>
-          </div>
           <div class="main row">
             <div class="text-about col-md-7 col-12 text-center text-sm-left">
               <h2>Hey, hi, hello!</h2>
@@ -144,14 +148,13 @@
                 check my <span>projects</span> out.Talk soon!
               </p>
             </div>
-            <div class="img col-md-5 col-12">
+            <div class="img col-md-5 col-12 d-none d-md-block">
               <img src="img/about‫‬.png" alt="about" />
             </div>
           </div>
           <div class="footer col-12">
-            <h1 class="m-0"><span></span>about me</h1>
+            <h1 ><span></span>about me</h1>
           </div>
-        </div>
       </div>
     </div>
     <!-- skills -->
@@ -650,7 +653,7 @@
         <div class="copy">
           <h6>
             Made With <i class="fas fa-heart"></i> By Alaa Sufi &copy;
-            2021-Design By Asata.
+            2021.
           </h6>
         </div>
       </div>

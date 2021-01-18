@@ -10,7 +10,6 @@
 .skills,
 .portfolio,
 .contact {
-  height: 100vh;
   position: relative;
   background: #293742;
   background-image: radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);

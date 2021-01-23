@@ -10,7 +10,6 @@
 .skills,
 .portfolio,
 .contact {
-  height: 100vh;
   position: relative;
   background: #293742;
   background-image: radial-gradient(circle farthest-corner at 50% 120%, #4f6373 30%, #293742 77.2%);
@@ -568,5 +567,10 @@
     display: inline-block;
     border-radius: 50%;
     line-height: 1; }
+<<<<<<< HEAD
 
 /*# sourceMappingURL=style.css.map */
+=======
+
+/*# sourceMappingURL=style.css.map */
+>>>>>>> ad452ab4f3468b3d811ca41a70e234ac2dce3dde

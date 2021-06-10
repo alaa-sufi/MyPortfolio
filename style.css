@@ -847,8 +847,12 @@
   text-shadow: 1px 1px 1px #ef3365;
 }
 
-.navbar ul li.active i, .navbar ul li:hover i {
+.navbar ul li.active i {
   background-color: #ef3365;
+}
+
+.navbar ul li:hover i {
+  background-color: rgba(239, 51, 101, 0.8);
 }
 
 .navbar ul li i {

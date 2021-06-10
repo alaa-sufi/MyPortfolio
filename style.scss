@@ -392,8 +392,11 @@ hr{
       &:hover span,&.active span {
         text-shadow: 1px 1px 1px $pink;
       }
-      &.active i,&:hover i{
+      &.active i {
         background-color: $pink;
+      }
+      &:hover i{
+        background-color: rgba($pink,0.8);
       }
       i {
         width: 35px;

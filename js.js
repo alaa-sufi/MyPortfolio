@@ -68,3 +68,4 @@ $(".navbar-toggler").toggleClass("collapsed");
 $("#navbarSupportedContent").removeClass("show");
   // $("#navbarSupportedContent").css("display","none")
 })
+var myFullpage = new fullpage("#fullpage", {});

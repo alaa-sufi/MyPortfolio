@@ -34,6 +34,8 @@
   opacity: 0.2;
   color: #4f6373;
   z-index: -1;
+  -webkit-animation: move infinite alternate 3s linear;
+          animation: move infinite alternate 3s linear;
 }
 
 .about {
@@ -907,5 +909,17 @@
   display: inline-block;
   border-radius: 50%;
   line-height: 1;
+}
+
+@-webkit-keyframes move {
+  to {
+    left: 5%;
+  }
+}
+
+@keyframes move {
+  to {
+    left: 5%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

@@ -233,7 +233,8 @@
         <div class="carousel" data-flickity='{"pageDots": false , "cellAlign" : "left" ,"contain": true }'>
           <div class="carousel-cell">
             <div class="card one" style="width: 18rem">
-              <img class="card-img-top" src="img/Applab.png" alt="Card image cap" />
+              <script>
+                document.write(`<img class="card-img-top" src="img/Applab.png" alt="Card image cap" />
               <div class="card-body">
                 <h5 class="card-title">Applab template</h5>
                 <div class="use">
@@ -251,11 +252,12 @@
                 <a class="get btn" href="https://github.com/alaa-sufi/APPLAB" target="blank"><i
                     class="fab fa-github"></i></a>
                 <a class="demo btn" href="https://alaasufi-portifolio-applab.netlify.app" target="blank"><i
-                    class="fa fa-external-link-alt"></i></a>
+                    class="fa fa-external-link-alt"></i></a>`)
+              </script>
               </div>
             </div>
           </div>
-          <div class="carousel-cell">
+          <!-- <div class="carousel-cell">
             <div class="card two" style="width: 18rem">
               <img class="card-img-top" src="img/elite.png" alt="Card image cap" />
               <div class="card-body">
@@ -300,8 +302,6 @@
                   template for a creative digital agency.
                 </p>
                 <span class="btn demo soon">Soon</span>
-                <!-- <a href="#" class="get btn" target="blank"><i class="fab fa-github"></i></a>
-                  <a href="#" class="demo btn" target="blank"><i class="fa fa-external-link-alt"></i></a>-->
               </div>
             </div>
           </div>
@@ -404,7 +404,7 @@
                     class="fa fa-external-link-alt"></i></a>
               </div>
             </div>
-          </div>
+          </div> -->
         </div>
         <div class="footer col-12">
           <h1 class="m-0"><span></span>Projects</h1>
@@ -461,8 +461,7 @@
           <h1 class="m-0"><span></span>Contact Me</h1>
         </div>
         <div class="copy">
-          <h6>
-            Made With <i class="fas fa-heart"></i> By Alaa Sufi &copy; 2021.
+          <h6> Made With <i class="fas fa-heart"></i> By Alaa Sufi &copy; <script>document.write(new Date().getFullYear())</script>.
           </h6>
         </div>
       </div>
@@ -470,7 +469,7 @@
   </div>
 
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
   <script src="https://npmcdn.com/flickity@2/dist/flickity.pkgd.js"></script>
   <script src="fullpage.min.js"></script>

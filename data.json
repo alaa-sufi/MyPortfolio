@@ -7,6 +7,22 @@
         "url":"https://alaasufi-portifolio-applab.netlify.app/",
         "gitHub":"https://github.com/alaa-sufi/APPLAB"
 
+    },{
+        "image":"img/Applab.png",
+        "title" : "Applab template",
+        "use":["html","sass","bootstrap" ,"svg"],
+        "desc":"From a perfect landing page<a href='https://omahpsd.com/story/free-app-lab-landing-page-psd-template/' target='blank'>PSD</a>template for startup, and promote your mobile app.",
+        "url":"https://alaasufi-portifolio-applab.netlify.app/",
+        "gitHub":"https://github.com/alaa-sufi/APPLAB"
+
+    },{
+        "image":"img/Applab.png",
+        "title" : "Applab template",
+        "use":["html","sass","bootstrap" ,"svg"],
+        "desc":"From a perfect landing page<a href='https://omahpsd.com/story/free-app-lab-landing-page-psd-template/' target='blank'>PSD</a>template for startup, and promote your mobile app.",
+        "url":"https://alaasufi-portifolio-applab.netlify.app/",
+        "gitHub":"https://github.com/alaa-sufi/APPLAB"
+
     }
 
 ]}

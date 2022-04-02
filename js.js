@@ -68,19 +68,17 @@ $(".nav-item").click(function () {
   $("#navbarSupportedContent").removeClass("show");
   // $("#navbarSupportedContent").css("display","none")
 })
-var myFullpage = new fullpage("#fullpage", {});
-
 var projects;
 fetch('https://raw.githubusercontent.com/alaa-sufi/MyPortfolio/main/data.json')
   .then(response => response.json())
   .then(data => {
     projects = data.projects;
     console.log(projects)
-  
+  var numbers = ["one","two","three","four","five","six","seven"]
     for(i=0;i<data.projects.length ;i++){
       $("#projects .carousel").append(
           `<div class="carousel-cell">
-        <div class="card one" style="width: 18rem">  
+        <div class="card ${numbers[i]}" style="width: 18rem">  
          <img class="card-img-top" src=${projects[i].image} />
             <div class="card-body">
               <h5 class="card-title">${projects[i].title}</h5>
@@ -102,4 +100,7 @@ fetch('https://raw.githubusercontent.com/alaa-sufi/MyPortfolio/main/data.json')
       </div>`)
       }
   });
+var myFullpage = new fullpage("#fullpage", {});
+
+
 

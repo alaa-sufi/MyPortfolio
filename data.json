@@ -1,121 +1,137 @@
-{"projects" : [
+{
+  "projects": [
     {
-        "id":1,
-        "image":"img/get-youtube-length.png",
-        "title" : "YouTube Playlist length",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://alaasufi-portifolio-get-youtube-playlist-length.netlify.app/",
-        "gitHub":"https://github.com/alaa-sufi/get-youtube-playlist-length"
+      "id": 1,
+      "image": "img/get-youtube-length.png",
+      "title": "YouTube Playlist length",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
+      "desc": "Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
+      "url": "https://alaasufi-portifolio-get-youtube-playlist-length.netlify.app/",
+      "gitHub": "https://github.com/alaa-sufi/get-youtube-playlist-length",
+      "color": "#aa3030"
+    },
+    {
+      "id": 6,
+      "image": "img/FUNCKLES.png",
+      "title": "FUNCKLES",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site create a new style of NFTs to let people collect the NFT that express ",
+      "url": "https://alaa-sufi.github.io/NFC/",
+      "gitHub": "",
+      "color": "#93165d"
+    },
+    {
+      "id": 13,
+      "image": "img/hulul.png",
+      "title": "Hulul Fx",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/nextjs.png' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.png' alt='tailwind' style='width: 1rem; height: 1rem' /><img class='icon' src='img/react-suite.png' alt='react-suite' style='width: 1rem; height: 1rem' />",
+      "desc": "Application for trading currencies using the Meta platform",
+      "url": "",
+      "gitHub": "",
+      "color": "#754cc3"
+    },
+    {
+      "id": 9,
+      "image": "img/alrawitheorie.png",
+      "title": "alrawi theorie",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site that provides choices and services for driving education",
+      "url": "https://www.alrawitheorie.nl/",
+      "gitHub": "",
+      "color": "#1c99f8"
+    },
+    {
+      "id": 12,
+      "image": "img/alhayat.png",
+      "title": "Al hayat",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/nextjs.png' alt='nextjs' style='width: 1rem; height: 1rem' />",
+      "desc": "A site for organizing and booking Al Hayah trips",
+      "url": "",
+      "gitHub": "",
+      "color": "#00adee"
+    },
+    {
+      "id": 8,
+      "image": "img/shopshipsmart.png",
+      "title": "shopshipsmart",
+      "use": "<i class='icon fab fa-wordpress'></i><i class='icon fab fa-css3-alt'></i>",
+      "desc": "A site to display shopshipsmart products that display decorative products",
+      "url": "https://shopshipsmart.com/",
+      "gitHub": "",
+      "color": "#0090A1"
+    },
+    {
+      "id": 5,
+      "image": "img/skyplus.png",
+      "title": "skyplus",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "Control panel for managing internet bills payment for skyplus company",
+      "url": "https://skypluspos.com/login",
+      "gitHub": "",
+      "color": "#3256d5 "
+    },
 
+    {
+      "id": 3,
+      "image": "img/address.png",
+      "title": "Address",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "Application that serves all categories of Syrian society to facilitate the individual's access to the destination he is looking for",
+      "url": "https://address.sy/",
+      "gitHub": "",
+      "color": "#25639e "
     },
     {
-        "id":1,
-        "image":"img/menusy.png",
-        "title" : "Menu Sy",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"http://user.menu.sy/Levant/getTable/1",
-        "gitHub":""
+      "id": 7,
+      "image": "img/efada.png",
+      "title": "Efada",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site that display Derma brand products specialized in the production of espresso coffee",
+      "url": "http://efada-eg.com/",
+      "gitHub": "",
+      "color": "#0f345c"
     },
-    {
-        "id":2,
-        "image":"img/address.png",
-        "title" : "Address",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://address.sy/",
-        "gitHub":""
-    },
-    {
-        "id":3,
-        "image":"img/horses.png",
-        "title" : "Horses",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://horses-af.com/ar",
-        "gitHub":""
 
+    {
+      "id": 11,
+      "image": "img/farniture-ms.png",
+      "title": "furniture ms",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site to display MS products for the production of antique and classic furniture since 2018.",
+      "url": "http://farniture-ms.com/",
+      "gitHub": "",
+      "color": "#161616"
     },
     {
-        "id":4,
-        "image":"img/skyplus.png",
-        "title" : "skyplus",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://skypluspos.com/login",
-        "gitHub":""
-
+      "id": 10,
+      "image": "img/100plus.png",
+      "title": "100plus",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site to display the products of the 100plus company that offers the best types of fresh food and meals",
+      "url": "http://www.100plus-sy.com/",
+      "gitHub": "",
+      "color": "#e55309"
     },
     {
-        "id":5,
-        "image":"img/FUNCKLES.png",
-        "title" : "FUNCKLES",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://alaa-sufi.github.io/NFC/",
-        "gitHub":""
-
+      "id": 2,
+      "image": "img/menusy.png",
+      "title": "Menu Sy",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "Menu.sy is a menu Developed electronic For software and systems industry information as a substitute for paper list",
+      "url": "http://user.menu.sy/Levant/getTable/1",
+      "gitHub": "",
+      "color": "#eb7230"
     },
-    {
-        "id":6,
-        "image":"img/efada.png",
-        "title" : "Efada",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"http://efada-eg.com/",
-        "gitHub":""
 
-    },
     {
-        "id":7,
-        "image":"img/shopshipsmart.png",
-        "title" : "Efada",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://shopshipsmart.com/",
-        "gitHub":""
-
-    },
-    {
-        "id":8,
-        "image":"img/alrawitheorie.png",
-        "title" : "alrawitheorie",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"https://www.alrawitheorie.nl/",
-        "gitHub":""
-
-    },
-    {
-        "id":9,
-        "image":"img/100plus.png",
-        "title" : "100plus",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"http://www.100plus-sy.com/",
-        "gitHub":""
-
-    },
-    {
-        "id":10,
-        "image":"img/farniture-ms.png",
-        "title" : "farniture ms",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"http://farniture-ms.com/",
-        "gitHub":""
-
-    },
-    {
-        "id":10,
-        "image":"img/alhayat.png",
-        "title" : "Al hayat",
-        "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-        "desc":" Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-        "url":"",
-        "gitHub":""
-
+      "id": 4,
+      "image": "img/horses.png",
+      "title": "Horses",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site that display car categories for horses company",
+      "url": "https://horses-af.com/ar",
+      "gitHub": "",
+      "color": "#dd7a38"
     }
-
-]}
+  ]
+}

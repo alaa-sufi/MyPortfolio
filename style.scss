@@ -28,7 +28,7 @@ $blue: #1ec3c7;
 ::selection {
   color: white;
   background: $pink;
-  }
+}
 
 .about,
 .skills,
@@ -66,8 +66,7 @@ $blue: #1ec3c7;
     animation: move infinite alternate 3s linear;
   }
   overflow: hidden;
-  // @include screen(padding,1.5rem 0 ,2rem 0 ,2.2rem 0 ,2.5rem 0 );  
-
+  // @include screen(padding,1.5rem 0 ,2rem 0 ,2.2rem 0 ,2.5rem 0 );
 }
 
 .about {
@@ -81,22 +80,21 @@ $blue: #1ec3c7;
     // padding-bottom: 1.5rem;
     .img img {
       display: block;
-      @include screen(width,70% ,60% ,90% ,100% );  
-      @include screen(margin,1.5rem auto ,2rem auto ,0 0 0 auto ,0 0 0 auto );
-
+      @include screen(width, 70%, 60%, 90%, 100%);
+      @include screen(margin, 1.5rem auto, 2rem auto, 0 0 0 auto, 0 0 0 auto);
     }
     .text-about {
       margin: auto;
-      h2 {
+      h3 {
         color: $pink;
-        @include screen(font-size,3rem ,3rem ,3.5rem ,4rem );  
+        @include screen(font-size, 3rem, 3rem, 3.5rem, 4rem);
         font-weight: bold;
       }
       p {
         color: white;
-        @include screen(font-size,1.5rem ,1.5rem ,1.7rem ,2rem );  
+        @include screen(font-size, 1.5rem, 1.5rem, 1.7rem, 2rem);
         font-size: 2rem;
-        
+
         span {
           cursor: pointer;
           color: $pink;
@@ -104,16 +102,14 @@ $blue: #1ec3c7;
       }
     }
   }
-  .footer{
+  .footer {
     bottom: 0;
-    
-      margin: auto 0 0  0;
-      position: absolute;
-      bottom: 0;
-      right: 15px;
-      @include screen(bottom,1.5rem ,2rem ,2.2rem ,2.5rem );  
-    
-  
+
+    margin: auto 0 0 0;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    @include screen(bottom, 1.5rem, 2rem, 2.2rem, 2.5rem);
   }
 }
 
@@ -121,8 +117,7 @@ $blue: #1ec3c7;
 
 .skills {
   .skills-icon {
-    @include screen(padding,3rem  0 ,4rem  0 ,4.2rem  0,4.5rem  0);  
-
+    @include screen(padding, 3rem 0, 4rem 0, 4.2rem 0, 4.5rem 0);
   }
   ul {
     padding: 0;
@@ -155,7 +150,7 @@ $blue: #1ec3c7;
 
 .portfolio {
   .swiper {
-    @include screen(margin,3rem  0 ,4rem  0 ,4.2rem  0,4.5rem  0);      
+    @include screen(margin, 3rem 0, 4rem 0, 4.2rem 0, 4.5rem 0);
     // width: 100%; /*width of container*/
     // height: 24rem;
     user-select: none;
@@ -179,10 +174,10 @@ $blue: #1ec3c7;
     .soon {
       display: block;
       width: 80%;
+      pointer-events: none;
+      
     }
   }
-
-
 
   .swiper-slide {
     width: max-content;
@@ -220,71 +215,54 @@ $blue: #1ec3c7;
         width: 50%;
       }
     }
-    .one .card-body {
-      background-color: #513b9f;
-    }
-    .two .card-body {
-      background-color: #3c5879;
-    }
-    .three .card-body {
-      background-color: #57b9b4;
-    }
-    .four .card-body {
-      background-color: #5aaa75;
-    }
-    .five .card-body {
-      background-color: #aa3030;
-    }
-    .six .card-body {
-      background-color: #eca74f;
-    }
-    .seven .card-body {
-      background-color: #cac02e;
+    .card {
+      background-color: var(--color);
     }
   }
 }
 
 // contact
 .contact {
-  
-  .row{
+  .row {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
   .contact-body {
-    h3{@include screen(font-size,1.3rem ,1.5rem,1.8rem,2rem);}
-    @include screen(margin,3rem  0 0 ,4rem  0 0 ,4.2rem  0 0,4.5rem  0 0);  
+    h3 {
+      @include screen(font-size, 1.3rem, 1.5rem, 1.8rem, 2rem);
+    }
+    @include screen(margin, 3rem 0 0, 4rem 0 0, 4.2rem 0 0, 4.5rem 0 0);
     background-color: $black;
     color: white;
-    @include screen(padding,1rem 2rem ,1rem 3rem,1rem 4rem ,1rem 5rem );
+    @include screen(padding, 1rem 2rem, 1rem 3rem, 1rem 4rem, 1rem 5rem);
     border-radius: 1rem;
 
     .follow {
       margin-top: auto;
       margin-bottom: auto;
-      @include screen(padding,0 ,0.5rem,0.8rem ,1rem );
+      @include screen(padding, 0, 0.5rem, 0.8rem, 1rem);
       text-align: center;
-     .icons{
-      @include screen(padding,0 ,0.5rem,0.8rem ,1rem );
-       a{
-         transition: all 0.3s ease-in-out ;
-         position: relative;
-         top: 0;
+      .icons {
+        @include screen(padding, 0, 0.5rem, 0.8rem, 1rem);
+        a {
+          transition: all 0.3s ease-in-out;
+          position: relative;
+          top: 0;
 
-         &:hover{
-          top: -5px;
-         }
-       }
-     }
-  
+          &:hover {
+            top: -5px;
+          }
+        }
+      }
+
       .icons .icon {
         background-color: #fff;
         border-radius: 50%;
-        @include screen(font-size,1rem ,1rem,1.5rem ,2rem );
-        @include screen(width,2rem ,2rem,3rem ,4rem );
-        @include screen(height,2rem ,2rem,3rem ,4rem );
+        @include screen(font-size, 1rem, 1rem, 1.5rem, 2rem);
+        @include screen(width, 2rem, 2rem, 3rem, 4rem);
+        @include screen(height, 2rem, 2rem, 3rem, 4rem);
 
         text-align: center;
         line-height: 2;
@@ -292,69 +270,68 @@ $blue: #1ec3c7;
         color: $pink;
       }
     }
-hr{
-  background-color: $pink;
-}
+    hr {
+      background-color: $pink;
+    }
     .freelance {
-      .icons{
+      .icons {
         padding-top: 1rem;
         padding-bottom: 1rem;
         a {
-          background: url(img/brands.png)  no-repeat;
+          background: url(img/brands.png) no-repeat;
           height: 53px;
           display: inline-block;
           width: 54px;
-          &.Mostaql{background-position: 0px -54px;}
-          &.Baaeed{background-position: 0px 0px;}
-          &.Nafezly{background-position: 0px -160px;}
-          &.Khamsat{background-position: 0px -107px;}
-          
+          &.Mostaql {
+            background-position: 0px -54px;
           }
-      }
-      
-    }
-    
-    }
-    .phone-message{
-      // @include screen(margin-bottom,3rem ,4rem  ,4.2rem ,4.5rem);  
-      margin-bottom:1rem;
-      span {
-        color: white;
-        font-size: 12px;
-        i {
-          margin-right: 10px;
+          &.Baaeed {
+            background-position: 0px 0px;
+          }
+          &.Nafezly {
+            background-position: 0px -160px;
+          }
+          &.Khamsat {
+            background-position: 0px -107px;
+          }
         }
       }
     }
-    .copy {
+  }
+  .phone-message {
+    // @include screen(margin-bottom,3rem ,4rem  ,4.2rem ,4.5rem);
+    margin-bottom: 1rem;
+    span {
+      color: white;
       font-size: 12px;
-      margin-top: auto;
-      display: flex;
-      justify-content: space-between;
-     
-      h6 {
-        color: $grey;
-        font-size: 12px;
-        padding: 0;
-        margin: 0;
-        i {
-          color: $pink;
-        }
+      i {
+        margin-right: 10px;
       }
-     
-    
-    
+    }
   }
+  .copy {
+    font-size: 12px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
 
+    h6 {
+      color: $grey;
+      font-size: 12px;
+      padding: 0;
+      margin: 0;
+      i {
+        color: $pink;
+      }
+    }
   }
+}
 
-  
 // global component
 
-
-.navbar{
-  background-color: rgba(30 ,195, 199 , 64%);
-  @include screen(padding , 0 ,0 ,0.5rem 1rem,0.5rem 1rem);   
+.navbar {
+  background-color: rgba(30, 195, 199, 64%);
+  @include screen(padding, 0, 0, 0.5rem 1rem, 0.5rem 1rem);
   position: absolute;
   top: 0;
   left: 0;
@@ -364,9 +341,9 @@ hr{
     color: white;
     position: relative;
     font-weight: bold;
-    @include screen(font-size,1.5rem ,1.8rem ,2rem ,2rem ); 
-      padding: 0;
-    &:hover{
+    @include screen(font-size, 1.5rem, 1.8rem, 2rem, 2rem);
+    padding: 0;
+    &:hover {
       color: $pink;
     }
     &:after {
@@ -379,25 +356,26 @@ hr{
       border-radius: 50%;
     }
   }
-  ul{
+  ul {
     list-style: none;
     padding: 0;
-    li{
+    li {
       color: white;
       cursor: pointer;
-      @include screen(margin-left, 0 , 0 , 2rem , 2rem ); 
-      &:hover ,&.active{
-        @include screen(background-color, $pink , $pink ,initial ,initial ); 
-
+      @include screen(margin-left, 0, 0, 2rem, 2rem);
+      &:hover,
+      &.active {
+        @include screen(background-color, $pink, $pink, initial, initial);
       }
-      &:hover span,&.active span {
+      &:hover span,
+      &.active span {
         text-shadow: 1px 1px 1px $pink;
       }
       &.active i {
         background-color: $pink;
       }
-      &:hover i{
-        background-color: rgba($pink,0.8);
+      &:hover i {
+        background-color: rgba($pink, 0.8);
       }
       i {
         width: 35px;
@@ -406,30 +384,22 @@ hr{
         line-height: 2;
         position: relative;
         text-align: center;
-    
-        
-        
       }
       span {
         // opacity: 0;
         transition: all 0.6s;
         text-align: left;
-        
-
       }
-
-  
     }
-
   }
 }
 
 .footer {
   text-align: right;
- 
-  h1 {
+
+  h2 {
     color: white;
-    @include screen(font-size,2.5rem ,3rem ,3.5rem ,4rem );  
+    @include screen(font-size, 2.5rem, 3rem, 3.5rem, 4rem);
     font-weight: 700;
     letter-spacing: -3px;
     line-height: 1;
@@ -444,8 +414,8 @@ hr{
     line-height: 1;
   }
 }
-@keyframes move{
-  to{
-    left:5%
+@keyframes move {
+  to {
+    left: 5%;
   }
 }

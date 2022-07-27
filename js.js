@@ -74,11 +74,10 @@ fetch('./data.json')
   .then(data => {
     projects = data.projects;
     console.log(projects)
-  var numbers = ["one","two","three","four","five","six","seven"]
     for(i=0;i<data.projects.length ;i++){
       $("#projects .container .swiper .swiper-wrapper").append(
           `<div class="swiper-slide">
-        <div class="card ${numbers[i]}" style="width: 18rem">  
+        <div class="card " style="width: 18rem; --color:${projects[i].color}">  
          <img class="card-img-top" src=${projects[i].image} />
             <div class="card-body">
               <h5 class="card-title">${projects[i].title}</h5>
@@ -88,7 +87,7 @@ fetch('./data.json')
               <p class="card-text">
                ${projects[i].desc}
               </p>
-              ${projects[i].gitHub ?  `<a class=" btn get" href=${projects[i].gitHub}" target="blank"><i
+              ${projects[i].gitHub ?  `<a class=" btn get" href=${projects[i].gitHub}" target="_blank"><i
               class="fab fa-github"></i></a>` :""}
               ${projects[i].url ? `<a class="demo btn" href=${projects[i].url} target="blank"><i
               class="fa fa-external-link-alt"></i></a>` :  `<span class="btn demo soon">Soon</span>`}

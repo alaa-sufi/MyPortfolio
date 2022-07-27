@@ -21,6 +21,17 @@
       "color": "#93165d"
     },
     {
+      "id":13,
+      "image":"img/addressjob.png",
+      "title" : "Address job",
+      "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc":"A site to display jobs by companies and facilitate finding job opportunities",
+      "url":"https://levantjob.com/",
+       "gitHub":"",
+      "color":"#22093a"
+  
+  },
+    {
       "id": 13,
       "image": "img/hulul.png",
       "title": "Hulul Fx",
@@ -30,6 +41,7 @@
       "gitHub": "",
       "color": "#754cc3"
     },
+   
     {
       "id": 9,
       "image": "img/alrawitheorie.png",
@@ -133,5 +145,6 @@
       "gitHub": "",
       "color": "#dd7a38"
     }
+   
   ]
 }

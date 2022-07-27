@@ -69,33 +69,30 @@ $(".nav-item").click(function () {
   // $("#navbarSupportedContent").css("display","none")
 })
 var projects;
-fetch('https://raw.githubusercontent.com/alaa-sufi/MyPortfolio/main/data.json')
+fetch('./data.json')
   .then(response => response.json())
   .then(data => {
     projects = data.projects;
     console.log(projects)
   var numbers = ["one","two","three","four","five","six","seven"]
     for(i=0;i<data.projects.length ;i++){
-      $("#projects .carousel").append(
-          `<div class="carousel-cell">
+      $("#projects .container .swiper .swiper-wrapper").append(
+          `<div class="swiper-slide">
         <div class="card ${numbers[i]}" style="width: 18rem">  
          <img class="card-img-top" src=${projects[i].image} />
             <div class="card-body">
               <h5 class="card-title">${projects[i].title}</h5>
               <div class="use">
-                <i class="icon fab fa-html5"></i>
-                <i class="icon fab fa-sass"></i>
-                <i class="icon fab fa-bootstrap"></i>
-                <img class="icon" src="img/jquery.png" alt="jquery" style="width: 1rem; height: 1rem" />
-                <h6 class="icon ticon">svg</h6>
+               ${projects[i].use}
               </div>
               <p class="card-text">
                ${projects[i].desc}
               </p>
-              <a class="get btn" href=${projects[i].url} target="blank"><i
-                class="fab fa-github"></i></a>
-              <a class="demo btn" href=${projects[i].gitHub}" target="blank"><i
-                class="fa fa-external-link-alt"></i></a>
+              ${projects[i].gitHub ?  `<a class=" btn get" href=${projects[i].gitHub}" target="blank"><i
+              class="fab fa-github"></i></a>` :""}
+              ${projects[i].url ? `<a class="demo btn" href=${projects[i].url} target="blank"><i
+              class="fa fa-external-link-alt"></i></a>` :  `<span class="btn demo soon">Soon</span>`}
+             
         </div>
       </div>`)
       }

@@ -154,14 +154,14 @@ $blue: #1ec3c7;
 }
 
 .portfolio {
-  .carousel {
+  .swiper {
     @include screen(margin,3rem  0 ,4rem  0 ,4.2rem  0,4.5rem  0);      
-    width: 100%; /*width of container*/
-    height: 24rem;
+    // width: 100%; /*width of container*/
+    // height: 24rem;
     user-select: none;
-    position: relative;
-    overflow: hidden;
-    cursor: grab;
+    // position: relative;
+    // overflow: hidden;
+    // cursor: grab;
     color: white;
     .get,
     .demo {
@@ -184,8 +184,9 @@ $blue: #1ec3c7;
 
 
 
-  .carousel-cell {
-    height: 100%;
+  .swiper-slide {
+    width: max-content;
+    height: max-content;
     .use {
       display: flex;
       .icon {

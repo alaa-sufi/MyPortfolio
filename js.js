@@ -76,7 +76,6 @@ fetch('./data.json')
   .then(response => response.json())
   .then(data => {
     projects = data.projects;
-    console.log(projects)
     for(i=0;i<data.projects.length ;i++){
       $("#projects .container .swiper .swiper-wrapper").append(
           `<div class="swiper-slide">
@@ -105,6 +104,9 @@ fetch('./data.json')
     scrollHorizontally: true,
     fadingEffect: true,
     touchSensitivity: 20,
+    onSlideLeave: function(section, origin, destination, direction, trigger){
+      console.log("section",section)
+    },
   });
 // var myFullpage = new fullpage("#fullpage", {});
 var swiper = new Swiper(".mySwiper", {

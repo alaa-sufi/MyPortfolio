@@ -130,6 +130,10 @@ $blue: #1ec3c7;
     li {
       border: 1px solid;
       max-width: unset;
+       background-color: rgba(30, 195, 199, 0.2%);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
       h6 {
         color: $blue;
       }
@@ -330,7 +334,10 @@ $blue: #1ec3c7;
 // global component
 
 .navbar {
-  background-color: rgba(30, 195, 199, 64%);
+  background-color: rgba(30, 195, 199, 0.2%);
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
   @include screen(padding, 0, 0, 0.5rem 1rem, 0.5rem 1rem);
   position: absolute;
   top: 0;
@@ -417,5 +424,37 @@ $blue: #1ec3c7;
 @keyframes move {
   to {
     left: 5%;
+  }
+}
+
+.loading{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background:$blue;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff;
+  .spinner14 div{
+    border:0.4rem double white;
+     border-bottom-color:$blue;
+    width: 2rem;
+    height: 2rem;
+    border-radius:50%;
+    animation:spinner 2s linear 0s infinite;
+  }
+  
+}
+
+@keyframes spinner{
+  from{
+    transform:rotate(0deg)
+  }
+  to{
+    transform:rotate(360deg)
   }
 }

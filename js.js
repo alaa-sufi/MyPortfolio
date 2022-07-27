@@ -7,7 +7,10 @@ $(document).ready(function () {
       scrollTop: $("#" + $(this).data("scroll")).offset().top + 1
     }, 1000)
   })
-
+  document.querySelectorAll("[data-src]").forEach((img)=>{
+    img.src = img.dataset.src
+  })
+  document.querySelector(".loading").classList.add("d-none")
 
   $(window).scroll(function () {
     // active in scroll
@@ -78,7 +81,7 @@ fetch('./data.json')
       $("#projects .container .swiper .swiper-wrapper").append(
           `<div class="swiper-slide">
         <div class="card " style="width: 18rem; --color:${projects[i].color}">  
-         <img class="card-img-top" src=${projects[i].image} />
+         <img class="card-img-top" src="img/placeholder.png" data-src=${projects[i].image} />
             <div class="card-body">
               <h5 class="card-title">${projects[i].title}</h5>
               <div class="use">
@@ -97,6 +100,19 @@ fetch('./data.json')
       }
   });
 var myFullpage = new fullpage("#fullpage", {});
-
-
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: "auto",
+      spaceBetween: 10,
+      // pagination: {
+      //   el: ".swiper-pagination",
+      //   clickable: true,
+      // },
+    });
+var swiper = new Swiper(".swipper-page", {
+  direction: "vertical",
+  // pagination: {
+  //   el: ".swiper-pagination",
+  //   clickable: true,
+  // },
+    });
 

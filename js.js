@@ -99,7 +99,14 @@ fetch('./data.json')
       </div>`)
       }
   });
-var myFullpage = new fullpage("#fullpage", {});
+  new fullpage('#fullpage', {
+    //options here
+    autoScrolling:true,
+    scrollHorizontally: true,
+    fadingEffect: true,
+    touchSensitivity: 20,
+  });
+// var myFullpage = new fullpage("#fullpage", {});
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: "auto",
       spaceBetween: 10,
@@ -108,11 +115,5 @@ var swiper = new Swiper(".mySwiper", {
       //   clickable: true,
       // },
     });
-var swiper = new Swiper(".swipper-page", {
-  direction: "vertical",
-  // pagination: {
-  //   el: ".swiper-pagination",
-  //   clickable: true,
-  // },
-    });
+
 

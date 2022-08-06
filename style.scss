@@ -23,6 +23,13 @@ $blue: #1ec3c7;
     #{$property}: $value4;
   }
 }
+a{
+  color:inherit;
+  &:hover{
+    color:inherit;
+    text-decoration: underline;
+  }
+}
 
 //end media
 ::selection {
@@ -99,6 +106,13 @@ $blue: #1ec3c7;
           cursor: pointer;
           color: $pink;
         }
+      }
+    }
+    .demo {
+      background-color: rgba(3, 3, 3, 0.3);
+      color: white;
+      &:hover {
+        background-color: rgba(200, 200, 200, 0.3);
       }
     }
   }

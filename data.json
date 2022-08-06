@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "image": "img/get-youtube-length.png",
+      "image": "img/get-youtube-length.webp",
       "title": "YouTube Playlist length",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
       "desc": "Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
@@ -12,7 +12,7 @@
     },
     {
       "id": 6,
-      "image": "img/FUNCKLES.png",
+      "image": "img/FUNCKLES.webp",
       "title": "FUNCKLES",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "A site create a new style of NFTs to let people collect the NFT that express ",
@@ -22,7 +22,7 @@
     },
     {
       "id":13,
-      "image":"img/addressjob.png",
+      "image":"img/addressjob.webp",
       "title" : "Address job",
       "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc":"A site to display jobs by companies and facilitate finding job opportunities",
@@ -33,7 +33,7 @@
   },
     {
       "id": 13,
-      "image": "img/hulul.png",
+      "image": "img/hulul.webp",
       "title": "Hulul Fx",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/nextjs.png' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.png' alt='tailwind' style='width: 1rem; height: 1rem' /><img class='icon' src='img/react-suite.png' alt='react-suite' style='width: 1rem; height: 1rem' />",
       "desc": "Application for trading currencies using the Meta platform",
@@ -44,7 +44,7 @@
    
     {
       "id": 9,
-      "image": "img/alrawitheorie.png",
+      "image": "img/alrawitheorie.webp",
       "title": "alrawi theorie",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "A site that provides choices and services for driving education",
@@ -54,7 +54,7 @@
     },
     {
       "id": 12,
-      "image": "img/alhayat.png",
+      "image": "img/alhayat.webp",
       "title": "Al hayat",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/nextjs.png' alt='nextjs' style='width: 1rem; height: 1rem' />",
       "desc": "A site for organizing and booking Al Hayah trips",
@@ -64,7 +64,7 @@
     },
     {
       "id": 8,
-      "image": "img/shopshipsmart.png",
+      "image": "img/shopshipsmart.webp",
       "title": "shopshipsmart",
       "use": "<i class='icon fab fa-wordpress'></i><i class='icon fab fa-css3-alt'></i>",
       "desc": "A site to display shopshipsmart products that display decorative products",
@@ -74,7 +74,7 @@
     },
     {
       "id": 5,
-      "image": "img/skyplus.png",
+      "image": "img/skyplus.webp",
       "title": "skyplus",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "Control panel for managing internet bills payment for skyplus company",
@@ -85,7 +85,7 @@
 
     {
       "id": 3,
-      "image": "img/address.png",
+      "image": "img/address.webp",
       "title": "Address",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "Application that serves all categories of Syrian society to facilitate the individual's access to the destination he is looking for",
@@ -95,7 +95,7 @@
     },
     {
       "id": 7,
-      "image": "img/efada.png",
+      "image": "img/efada.webp",
       "title": "Efada",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "A site that display Derma brand products specialized in the production of espresso coffee",
@@ -106,7 +106,7 @@
 
     {
       "id": 11,
-      "image": "img/farniture-ms.png",
+      "image": "img/farniture-ms.webp",
       "title": "furniture ms",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "A site to display MS products for the production of antique and classic furniture since 2018.",
@@ -116,7 +116,7 @@
     },
     {
       "id": 10,
-      "image": "img/100plus.png",
+      "image": "img/100plus.webp",
       "title": "100plus",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "A site to display the products of the 100plus company that offers the best types of fresh food and meals",
@@ -126,7 +126,7 @@
     },
     {
       "id": 2,
-      "image": "img/menusy.png",
+      "image": "img/menusy.webp",
       "title": "Menu Sy",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "Menu.sy is a menu Developed electronic For software and systems industry information as a substitute for paper list",
@@ -137,7 +137,7 @@
 
     {
       "id": 4,
-      "image": "img/horses.png",
+      "image": "img/horses.webp",
       "title": "Horses",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "A site that display car categories for horses company",

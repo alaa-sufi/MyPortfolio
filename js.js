@@ -99,16 +99,16 @@ fetch('./data.json')
       </div>`)
       }
   });
-  new fullpage('#fullpage', {
-    //options here
-    autoScrolling:true,
-    scrollHorizontally: true,
-    fadingEffect: true,
-    touchSensitivity: 20,
-    onSlideLeave: function(section, origin, destination, direction, trigger){
-      console.log("section",section)
-    },
-  });
+  // new fullpage('#fullpage', {
+  //   //options here
+  //   autoScrolling:true,
+  //   scrollHorizontally: true,
+  //   fadingEffect: true,
+  //   touchSensitivity: 20,
+  //   onSlideLeave: function(section, origin, destination, direction, trigger){
+  //     console.log("section",section)
+  //   },
+  // });
 // var myFullpage = new fullpage("#fullpage", {});
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: "auto",

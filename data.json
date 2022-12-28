@@ -21,16 +21,15 @@
       "color": "#93165d"
     },
     {
-      "id":13,
-      "image":"img/addressjob.webp",
-      "title" : "Address job",
-      "use":"<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
-      "desc":"A site to display jobs by companies and facilitate finding job opportunities",
-      "url":"https://levantjob.com/",
-       "gitHub":"",
-      "color":"#22093a"
-  
-  },
+      "id": 13,
+      "image": "img/addressjob.webp",
+      "title": "Address job",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "A site to display jobs by companies and facilitate finding job opportunities",
+      "url": "https://levantjob.com/",
+      "gitHub": "",
+      "color": "#22093a"
+    },
     {
       "id": 13,
       "image": "img/hulul.webp",
@@ -41,7 +40,7 @@
       "gitHub": "",
       "color": "#754cc3"
     },
-   
+
     {
       "id": 9,
       "image": "img/alrawitheorie.webp",
@@ -103,7 +102,16 @@
       "gitHub": "",
       "color": "#0f345c"
     },
-
+    {
+      "id": 4,
+      "image": "img/sadeed-1.webp",
+      "title": "Sadeed - Content management section",
+      "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><img class='icon' src='img/strapi.svg' alt='strapi' style='width: 1rem; height: 1rem' />",
+      "desc": "A platform for selling services and products similar to Fiverr - the content management section of the site",
+      "url": "https://sadead-front.vercel.app/",
+      "gitHub": "",
+      "color": "#223243"
+    },
     {
       "id": 11,
       "image": "img/farniture-ms.webp",
@@ -130,7 +138,7 @@
       "title": "Menu Sy",
       "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
       "desc": "Menu.sy is a menu Developed electronic For software and systems industry information as a substitute for paper list",
-      "url": "http://user.menu.sy/Levant/getTable/1",
+      "url": "http://user.menu.sy/Menu.Sy/getTable/1",
       "gitHub": "",
       "color": "#eb7230"
     },
@@ -145,6 +153,5 @@
       "gitHub": "",
       "color": "#dd7a38"
     }
-   
   ]
 }

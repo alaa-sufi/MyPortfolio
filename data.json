@@ -1,16 +1,6 @@
 {
   "projects": [
     {
-      "id": 1,
-      "image": "img/get-youtube-length.webp",
-      "title": "YouTube Playlist length",
-      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/jquery.png' alt='jquery' style='width: 1rem; height: 1rem' /><h6 class='icon ticon'>JSON</h6> <h6 class='icon ticon'>RegExp</h6>",
-      "desc": "Application to get YouTube playlist length using YouTube API for 50 videos at maximum",
-      "url": "https://alaasufi-portifolio-get-youtube-playlist-length.netlify.app/",
-      "gitHub": "https://github.com/alaa-sufi/get-youtube-playlist-length",
-      "color": "#aa3030"
-    },
-    {
       "id": 6,
       "image": "img/FUNCKLES.webp",
       "title": "FUNCKLES",

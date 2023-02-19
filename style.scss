@@ -78,9 +78,11 @@ a {
 }
 .contact {
   height: 101vh;
-   @include xs {
-    height: initial;
-    padding: 2rem 0;
+  display: flex;
+  align-items: center;
+  @include xs {
+    height: 101vh;
+    padding: 0;
   }
 }
 .about {
@@ -127,17 +129,17 @@ a {
       }
     }
   }
-  .footer {
-    margin: auto 0 0 0;
-    position: absolute;
-    bottom: 0;
-    right: 15px;
-    @include screen(bottom, 1.5rem, 2rem, 2.2rem, 2.5rem);
-    // @include xs {
-    //   position: initial;
-    //   padding-top: 1rem;
-    // }
-  }
+}
+.footer {
+  margin: auto 0 0 0;
+  position: absolute;
+  bottom: 0;
+  right: 15px;
+  @include screen(bottom, 1.5rem, 2rem, 2.2rem, 2.5rem);
+  // @include xs {
+  //   position: initial;
+  //   padding-top: 1rem;
+  // }
 }
 
 // skills
@@ -276,13 +278,13 @@ a {
       text-align: center;
       .icons {
         display: flex;
-          justify-content: center;
-          align-items: center;
-          gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
         @include screen(padding, 0, 0.5rem, 0.8rem, 1rem);
-        @include xs{
+        @include xs {
           gap: 0.25rem;
-          img{
+          img {
             width: 1.2rem;
           }
         }
@@ -353,7 +355,7 @@ a {
     font-size: 12px;
     margin-top: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     @include xs {
       position: absolute;
       right: 50%;

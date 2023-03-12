@@ -97,7 +97,7 @@
       "image": "img/sadeed-1.webp",
       "title": "Sadeed - Content management section",
       "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><img class='icon' src='img/strapi.svg' alt='strapi' style='width: 1rem; height: 1rem' />",
-      "desc": "A platform for selling services and products similar to Fiverr - the content management section of the site",
+      "desc": "A platform for selling services and products similar to Fiverr",
       "url": "https://sadead-front.vercel.app/",
       "gitHub": "",
       "color": "#223243"

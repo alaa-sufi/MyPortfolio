@@ -81,7 +81,7 @@ fetch('./data.json')
       $("#projects .container .swiper .swiper-wrapper").append(
           `<div class="swiper-slide">
         <div class="card " style="width: 18rem; --color:${projects[i].color}">  
-         <img class="card-img-top" src="img/placeholder.webp" data-src=${projects[i].image} />
+         <img class="card-img-top" src=${projects[i].image} data-src=${projects[i].image} />
             <div class="card-body">
               <h5 class="card-title">${projects[i].title}</h5>
               <div class="use">

@@ -4,7 +4,7 @@
       "id": 15,
       "image": "img/shihab-icons.webp",
       "title": "Shihab-icons",
-      "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><i class='icon fab fa-react'></i> TS",
+      "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><i class='icon fab fa-react'></i> <i>ts</i>",
       "desc": "shihab-icons for React and figma,  230 icons in 2 different styles,24px grid-based",
       "url": "https://shihab-icons.vercel.app/",
       "gitHub": "",

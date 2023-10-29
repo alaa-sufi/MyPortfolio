@@ -8,5 +8,25 @@
     "url": "https://alaasufi-portifolio-get-youtube-playlist-length.netlify.app/",
     "gitHub": "https://github.com/alaa-sufi/get-youtube-playlist-length",
     "color": "#aa3030"
-  }
+  },
+  {
+    "id": 4,
+    "image": "img/sadeed-1.webp",
+    "title": "Sadeed - Content management section",
+    "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><img class='icon' src='img/strapi.svg' alt='strapi' style='width: 1rem; height: 1rem' />",
+    "desc": "A platform for selling services and products similar to Fiverr",
+    "url": "https://sadead-front.vercel.app/",
+    "gitHub": "",
+    "color": "#223243"
+  },
+  {
+    "id": 8,
+    "image": "img/shopshipsmart.webp",
+    "title": "shopshipsmart",
+    "use": "<i class='icon fab fa-wordpress'></i><i class='icon fab fa-css3-alt'></i>",
+    "desc": "A site to display shopshipsmart products that display decorative products",
+    "url": "https://shopshipsmart.com/",
+    "gitHub": "",
+    "color": "#0090A1"
+  },
 ]

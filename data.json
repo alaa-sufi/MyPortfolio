@@ -1,10 +1,40 @@
 {
   "projects": [
     {
+      "id": 22,
+      "image": "img/xtra-erp.webp",
+      "title": "Xtra ERP landing page",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "Landing page for xtra ERP application for ERP system",
+      "url": "https://xtra.co.com/",
+      "gitHub": "",
+      "color": "#10262d "
+    },
+    {
+      "id": 20,
+      "image": "img/e-naweh.webp",
+      "title": "e-naweh",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "The Islamic electronic na’wah to help write and publish the na’wah in minutes",
+      "url": "https://e-naweh.com/",
+      "gitHub": "",
+      "color": "#464655 "
+    },
+    {
+      "id": 23,
+      "image": "img/moumen.webp",
+      "title": "Moumen landing page",
+      "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+      "desc": "Customize a page on the msaaq.com website to the creative photographer Mamoun",
+      "url": "https://moumen-acd.com/slug044886231863681325",
+      "gitHub": "",
+      "color": "#6802E7 "
+    },
+    {
       "id": 15,
       "image": "img/shihab-icons.webp",
       "title": "Shihab-icons",
-      "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><i class='icon fab fa-react'></i> <i>ts</i>",
+      "use": "<img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><i class='icon fab fa-react'></i> <span style='margin:-6px 0'>ts</span>",
       "desc": "shihab-icons for React and figma,  230 icons in 2 different styles,24px grid-based",
       "url": "https://shihab-icons.vercel.app/",
       "gitHub": "",
@@ -70,7 +100,6 @@
       "gitHub": "",
       "color": "#1c99f8"
     },
-
     {
       "id": 7,
       "image": "img/efada.webp",
@@ -81,8 +110,6 @@
       "gitHub": "",
       "color": "#0f345c"
     },
-
-
     {
       "id": 13,
       "image": "img/addressjob.webp",

@@ -28,5 +28,75 @@
     "url": "https://shopshipsmart.com/",
     "gitHub": "",
     "color": "#0090A1"
+  },
+  {
+    "id": 2,
+    "image": "img/menusy.webp",
+    "title": "Menu Sy",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
+    "desc": "Menu.sy is a menu Developed electronic For software and systems industry information as a substitute for paper list",
+    "url": "http://user.menu.sy/levant/getTable/1",
+    "gitHub": "",
+    "color": "#028ad7"
+  },
+  {
+    "id": 12,
+    "image": "img/alhayat.webp",
+    "title": "Al hayat",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' />",
+    "desc": "A site for organizing and booking Al Hayah trips",
+    "url": "https://alhayat.sy/en",
+    "gitHub": "",
+    "color": "#00adee"
+  },
+  {
+    "id": 13,
+    "image": "img/addressjob.webp",
+    "title": "Address job",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+    "desc": "A site to display jobs by companies and facilitate finding job opportunities",
+    "url": "https://levantjob.com/",
+    "gitHub": "",
+    "color": "#22093a"
+  },
+  {
+    "id": 13,
+    "image": "img/hulul.webp",
+    "title": "Hulul Fx",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><img class='icon' src='img/nextjs.svg' alt='nextjs' style='width: 1rem; height: 1rem' /><img class='icon' src='img/tailwind.svg' alt='tailwind' style='width: 1rem; height: 1rem' /><img class='icon' src='img/react-suite.svg' alt='react-suite' style='width: 1rem; ' />",
+    "desc": "Application for trading currencies using the Meta platform",
+    "url": "",
+    "gitHub": "",
+    "color": "#754cc3"
+  },
+  {
+    "id": 4,
+    "image": "img/horses.webp",
+    "title": "Horses",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+    "desc": "A site that display car categories for horses company",
+    "url": "https://horses-af.com/ar",
+    "gitHub": "",
+    "color": "#dd7a38"
+  },
+  {
+    "id": 10,
+    "image": "img/100plus.webp",
+    "title": "100plus",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-js'></i><i class='icon fab fa-bootstrap'></i>",
+    "desc": "A site to display the products of the 100plus company that offers the best types of fresh food and meals",
+    "url": "http://www.100plus-sy.com/",
+    "gitHub": "",
+    "color": "#e55309"
+  },
+  {
+    "id": 11,
+    "image": "img/farniture-ms.webp",
+    "title": "furniture ms",
+    "use": "<i class='icon fab fa-html5'></i><i class='icon fab fa-css3-alt'></i><i class='icon fab fa-react'></i><i class='icon fab fa-bootstrap'></i>",
+    "desc": "A site to display MS products for the production of antique and classic furniture since 2018.",
+    "url": "http://farniture-ms.com/",
+    "gitHub": "",
+    "color": "#161616"
   }
 ]

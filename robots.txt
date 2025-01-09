@@ -1,0 +1,6 @@
+# Allow all user agents to crawl everything
+User-agent: *
+
+# Allow all
+Allow: /
+Sitemap: https://xtra-go.com/sitemap.xml

@@ -3,4 +3,4 @@ User-agent: *
 
 # Allow all
 Allow: /
-Sitemap: https://xtra-go.com/sitemap.xml
+Sitemap: https://alaa-sufi-portfolio.netlify.app/sitemap.xml
